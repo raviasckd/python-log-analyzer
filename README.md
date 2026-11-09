@@ -10,8 +10,8 @@ A dependency-free Python CLI for summarising application log files. It recognise
 ```bash
 git clone https://github.com/raviasckd/python-log-analyzer.git
 cd python-log-analyzer
-python -m log_analyzer sample.log
-python -m log_analyzer sample.log --json report.json
+python -m log_analyzer examples/sample.log
+python -m log_analyzer examples/sample.log --json report.json
 ```
 
 Run tests:
