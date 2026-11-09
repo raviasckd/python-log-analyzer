@@ -1,0 +1,6 @@
+2026-11-09 08:15:02 INFO api service started
+2026-11-09 08:15:05 DEBUG configuration loaded
+2026-11-09 08:16:12 WARNING request latency above threshold
+2026-11-09 08:16:45 ERROR database connection timed out
+2026-11-09 08:17:01 INFO retry scheduled
+worker heartbeat received
