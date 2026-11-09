@@ -35,7 +35,7 @@ class AnalyzeLinesTests(unittest.TestCase):
         self.assertTrue(all(count == 0 for count in result.severity_counts.values()))
 
     def test_severity_must_be_a_complete_token(self) -> None:
-        result = analyze_lines(["INFORMATION is not INFO", "ERROR_CODE is not ERROR"])
+        result = analyze_lines(["INFORMATION message", "ERROR_CODE value"])
         self.assertEqual(result.unclassified, 2)
 
 
